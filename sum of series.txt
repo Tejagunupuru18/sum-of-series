@@ -1,0 +1,8 @@
+public class SumOfNaturalNumbers {
+    public static void main(String[] args) {
+        int n; // Change the value of 'n' to the desired number of natural numbers
+        int sum = (n * (n + 1)) / 2;//this is the standard formular for calculating sum of numbers
+
+        System.out.println("Sum of first " + n + " natural numbers is: " + sum);
+    }
+}
